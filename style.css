@@ -1,0 +1,125 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+/* Header */
+.head {
+    height: 12vh;
+    background: #36393f;
+    border-radius: 2px 0 2px 0;
+    transform: translateZ(10px);
+    animation: lighting 10s infinite;
+    transition: all 1s;
+}
+.head-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 36px;
+}
+
+@keyframes lighting {
+    0% {
+        box-shadow: 10px 16px 24px rgb(185, 51, 179);
+    }
+    40% {
+        box-shadow: 10px 16px 24px rgb(147, 36, 211);
+    }
+    60% {
+        box-shadow: 10px 16px 24px rgb(219, 30, 39);
+    }
+    80% {
+        box-shadow: 10px 16px 24px rgb(58, 219, 18);
+    }
+    100% {
+        box-shadow: 10px 16px 24px rgb(17, 93, 235);
+    }
+}
+/* End of Header */
+
+/*Body */
+.main {
+    background: #202225;
+    height: 120vh;
+}
+.main-text-1 {
+
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.instruct-box {
+    position: relative;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    padding: 20px 20px;
+    background: #eeeeee;
+    animation:  box-lighting 10s infinite;
+}
+.youtube {
+    opacity: 0;
+    cursor: none;
+}
+@keyframes box-lighting {
+    0% {
+        box-shadow: 10px 16px 24px  #aaa;
+    }
+    40% {
+        box-shadow: 12px 12px 28px #aaa;
+    }
+    60% {
+        box-shadow: 16px 10px 30px #aaa;
+    }
+    80% {
+        box-shadow: 12px 12px 28px #aaa;
+    }
+    100% {
+        box-shadow: 10px 16px 24px #aaa;
+    }
+}
+@media screen and (max-width: 1400px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    
+    }
+    section {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: 15px;
+    }
+    .gen {
+        font-size: 20px;
+        margin-left: 2vh;
+    }
+    .main-text {
+        font-size: 20px;
+
+    }
+    .instruct-box {
+        position: relative;
+        margin-top: 10vh;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    .gen-list {
+        margin-right: 0;
+    }
+    .head-title {
+        font-size: 28px;
+    }
+}
+
+
+
+/* End of body */
+
+/* Video */
+
+.video-edit {
+    opacity: 0;
+}
+/* End of Video */
