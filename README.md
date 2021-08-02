@@ -12,4 +12,4 @@ Haydio is gesture controlled radio web app which detects hand gestures to turn o
 
 Simply fork or clone the repo and start using it.
 
-I would recommend everyone to please work on ways to increase accuracy and please let me know how can I improve the model as even I am working on it.I will be more than happy and a big thanks to everyone supporting me here.
+I would recommend everyone to please work on ways to increase accuracy and please let me know how can I improve the model as even I am working on it.I will be more than happy and a big thanks to everyone supporting me here.🤝🤝✌️✌️
